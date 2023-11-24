@@ -10,7 +10,7 @@ const Users = (props) => {
 
                 <a className="header" href="#0">
                 <i className="fa fa-bars"></i>
-                <div className="header-user"><i className="fas fa-user-circle icon"></i>Hello John Dee</div>
+                <div className="header-user"><i className="fas fa-user-circle icon"></i>Hello D Creator</div>
                 </a>
 
                 <Sidebar />
@@ -18,7 +18,12 @@ const Users = (props) => {
                 <div className="main-header">
                     <div className="main-title">
                     <h1>Users</h1>
-                    <h2> Welcome {user.surname}{user.othernames}</h2>
+                    <h2>{user.surname[0]}</h2>
+                    <h2>{user.surname[1]}</h2>
+                    <h2>{user.surname[2]}</h2>
+                    <h2>{user.surname[4]}</h2>
+                    <h2>{user.surname[6]}</h2>
+                    <h2>{user.surname[8]}</h2>
                     </div>
                 </div>
                 </main>
@@ -48,4 +53,4 @@ export default Users
 
 
 // sn. date        eventname        eventdescription location 
-// 1   30/12/2023  birthday party  owambe            maryland
+// 1   

@@ -18,7 +18,32 @@ a {
   text-decoration: none;
   color: inherit;
 }
+h2{
+  padding-left: 30px;
+}
+.fortab{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  font-size: 20px;
+  font-family: cursive;
+}
+.head{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+  gap: 34px;
+  font-size: 15px;
+  font-family: sans-serif;
 
+}
 .layout {
   display: flex;
   align-items: center;
@@ -26,6 +51,7 @@ a {
   padding: 0 16px;
   background-color: #f6f4fc;
   margin: 0 20px;
+  
 }
 
 .content {
