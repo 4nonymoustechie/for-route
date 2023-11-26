@@ -44,6 +44,8 @@ a {
   padding: 20px;
   width: 100%;
   max-width: 650px;
+  padding-right: 130px;
+  padding-bottom: 50px;
 }
 
 .main-title {
@@ -311,4 +313,89 @@ form input {
 
 .button:hover {
   filter: brightness(90%);
+}
+
+h2{
+  padding-left: 30px;
+}
+
+table{
+  margin-left: 30px;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: #4cb0d8;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4cb0d8;
+  color: white;
+}
+.lower{
+  padding-left: 30px;
+  display: flex;
+}
+
+
+.downbtn {
+  width: 80px;
+  transition-duration: 0.4s;
+  font-family: cursive;
+  background-color: #4cb0d8;
+  border: none;
+  box-shadow: none;
+  height: 40px;
+
+}
+
+.downbtn:hover {
+  background-color: black; /* Green */
+  color: white;
+}
+.rates{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.details{
+  display: flex;
+  gap: 10px;
+  height: 30px;
+}
+.detailing{
+  display: flex;
+  gap: 90px;
+}
+.whole{
+  padding-left: 30px;
+}
+.lastbtn{
+  width: 80px;
+  transition-duration: 0.4s;
+  font-family: cursive;
+  background-color: #4cb0d8;
+  border: none;
+  box-shadow: none;
+  height: 40px;
+  margin-top: 20px;
+}
+.line{
+  margin-left: 30px;
+}
+.forlast{
+  margin-left: 30px;
 }

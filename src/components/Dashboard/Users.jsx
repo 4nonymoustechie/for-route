@@ -10,7 +10,7 @@ const Users = (props) => {
 
                 <a className="header" href="#0">
                 <i className="fa fa-bars"></i>
-                <div className="header-user"><i className="fas fa-user-circle icon"></i>Hello John Dee</div>
+                <div className="header-user"><i className="fas fa-user-circle icon"></i>Hello D Creator</div>
                 </a>
 
                 <Sidebar />
@@ -18,7 +18,14 @@ const Users = (props) => {
                 <div className="main-header">
                     <div className="main-title">
                     <h1>Users</h1>
-                    <h2> Welcome {user.surname}{user.othernames}</h2>
+                    <h2>{user.surname}{user.othernames}</h2>
+                    <h2>{user.userN[1]}</h2>
+                    <h2>{user.userN[2]}</h2>
+                    <h2>{user.userN[3]}</h2>
+                    <h2>{user.userN[4]}</h2>
+                    <h2>{user.userN[5]}</h2>
+                    <h2>{user.userN[6]}</h2>
+                    <h2>{user.userN[7]}</h2>
                     </div>
                 </div>
                 </main>
